@@ -32,11 +32,7 @@ Navigate to the project directory: cd DeliveryPartners
 
 Create a virtual environment: python3 -m venv env
 
-Activate the virtual environment:
-
-For Windows: env\Scripts\activate
-
-For macOS/Linux: source env/bin/activate
+Activate the virtual environment
 
 Install the dependencies: pip install -r requirements.txt
 
@@ -70,14 +66,17 @@ The service should now be accessible at http://localhost:8000.
 
 ## API Endpoints
 
-Nearest Partner:
-URL: /partners/nearest/?latitude=<your-latitude>&longitude=<your-longtitude>
+1.Nearest Partner:
+
+URL: /partners/nearest/?latitude=your-latitude&longitude=your-longtitude
 
 Method: GET
 
 Response: JSON object representing the nearest delivery partner
 
-Partner Detail:
+
+2.Partner Detail:
+
 URL: /partner/<partner_id>/
 
 Method: GET
