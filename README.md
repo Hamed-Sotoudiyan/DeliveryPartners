@@ -91,6 +91,27 @@ Then run the following command:
 
 python manage.py test
 
+The test command will execute all the tests within the project. 
+
+Let's take a closer look at the tests organized within the test folder:
+
+1.test_open_weather_API: 
+
+This directory contains tests related to the Open Weather API integration. 
+
+These tests ensure that the interactions with the Open Weather API endpoints are functioning correctly. 
+
+The tests cover various scenarios, such as retrieving weather data, 
+
+handling error responses, and validating the data received from the API.
+
+2.test_views: The tests in this directory focus on the views of your application. 
+
+These tests verify the functionality and correctness of the different views the project.
+
+They simulate HTTP requests and verify the corresponding responses, ensuring that the views behave as expected.
+
+
 ------------------------------------------------------------------------------------------
 
 ## Deployment
