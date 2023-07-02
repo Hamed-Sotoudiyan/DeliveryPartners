@@ -12,9 +12,13 @@ and PartnerDetailView for retrieving detailed information about a specific deliv
 Before running the service, please ensure that you have the following installed:
 
 Python (version 3.8)
+
 Django (version 4.x)
+
 PostGIS
+
 Docker
+
 Docker Compose
 
 --------------------------------------------------------------------------------------
